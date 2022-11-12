@@ -23,6 +23,8 @@ body{
     max-width: 400px;
     border-radius: 8px;
     object-fit: cover;
+    box-shadow: 0 0 4px #1e002a;
+    transition: scale 1s;
 }
 
 .gallery{
@@ -40,5 +42,6 @@ body{
 }
 
 .gallery img:hover{
-    scale: 10px;
+    scale: 105%;
+
 }
